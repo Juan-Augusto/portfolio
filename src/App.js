@@ -1,9 +1,14 @@
 import './App.css';
+import { Navbar } from './Components/Navbar';
 import { Router } from './Routes/Router';
 
 function App() {
   return (
-    <Router />
+    <>
+      <Navbar/>
+      <Router />
+    </>
+
   );
 }
 
