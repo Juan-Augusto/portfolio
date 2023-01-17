@@ -1,14 +1,15 @@
-import './App.css';
-import { Navbar } from './Components/Navbar';
-import { Router } from './Routes/Router';
+import { Footer } from "antd/lib/layout/layout";
+import "./App.css";
+import { Navbar } from "./Components/Navbar";
+import { Router } from "./Routes/Router";
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Router />
+      <Footer />
     </>
-
   );
 }
 
